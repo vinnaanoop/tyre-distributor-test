@@ -6,6 +6,9 @@
         public const string Mini = "Mini";
         public const string Estate = "Estate";
 
+        public string Brand { get; }
+        public string Model { get; }
+        public int Price { get; set; }
         public Tyre(string brand, string model, int price)
         {
             Brand = brand;
@@ -13,8 +16,6 @@
             Price = price;
         }
 
-        public string Brand { get; }
-        public string Model { get; }
-        public int Price { get; set; }
+     
     }
 }
